@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 const MyNavbar = () => {
     return (
         <>
-
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand href="#home">
                     <img alt="My Portfolio Logo" src="https://img.icons8.com/dusk/50/000000/huawei-logo.png" />
