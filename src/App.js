@@ -1,11 +1,13 @@
 import React from "react";
-import MyNavbar from "./Components/Navbar/MyNavbar";
+import Introduction from "./Components/Introduction/Introduction.component.jsx";
+import MyNavbar from "./Components/Navbar/MyNavbar.component.jsx";
 
 
 function App() {
   return (
     <div className="App">
       <MyNavbar />
+      <Introduction />
       Portfolio
     </div>
   );
