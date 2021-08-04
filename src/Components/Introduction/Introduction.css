@@ -1,13 +1,14 @@
   .main-container{
      background-color: #583759;
 } 
-
+/* #583759  05032F; */
 .profile-container{
     justify-content: "center";
     align-items: "center";
     margin-top: 120px;
-    padding: 10px;
+    /* padding: 10px; */
     height:80vh;
+    width: auto;
 }
 
 h1{
@@ -41,13 +42,13 @@ h1{
   transition: 50% 50% 0px;
 }
 
-.responsive_image{
+ .responsive_image{
   align-self: flex-end;
         animation-duration: 4s;
         animation-iteration-count: infinite;
         margin: 0 auto 0 auto;
         transform-origin: bottom;
-} 
+} /*
     .img2{
       animation-name: bounce-1;
         animation-timing-function: linear;
@@ -56,9 +57,36 @@ h1{
         0%   { transform: translateY(0); }
         50%  { transform: translateY(-20px); }
         100% { transform: translateY(0); }
+    } */
+
+    .buttons{
+        background-color: #9330ac ;
+    border: solid 1px #9330ac;
+    color: #fff;
+    font-weight: 700;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
     }
 
-
+    .buttons:hover {
+      background-color: #fff;
+      color: #9330ac;
+      transition: all 0.3s ease 0s;
+      transform: translateY(-3px);
+    }
+    .button-container{
+      padding: 0%;
+    }
 /* 
 //media-query */
  @media screen and (max-width: 800px) {
@@ -82,7 +110,20 @@ h1{
       justify-content: "center";
       align-items: "center";
       
-      height: 20vh;
+      height: 30vh;
     }
-
+    
   } 
+
+  @media (max-width: 768px) {
+    .main-button {
+      font-size: 15px;
+      padding: 12px 18px;
+      margin-right: 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .main-button {
+      font-size: 12px;
+    }
+  }

@@ -1,0 +1,23 @@
+h1{
+    color:black;
+}
+
+  
+
+  @media screen and (max-width: 700px) {
+    h1{
+      font-size: 4vw; 
+    }
+    
+    
+    .working_img{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 50vw;
+      height: 50vh;
+    }
+
+}
